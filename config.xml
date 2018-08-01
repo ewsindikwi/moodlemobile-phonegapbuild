@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.out.outlems"
         versionCode = "20230"
         version   = "3.4.2">
-    <name>Moodle Mobile</name>
+    <name>OUTLeMS</name>
 
     <description>
-        Moodle Mobile official app
+        OUTLeMS official app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://ibold.africa" email="francis.mashalla@out.ac.tz">
+        EDMS Team
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -44,7 +44,7 @@
     <preference name="load-url-timeout" value="60000" />
     <preference name="AppendUserAgent" value="MoodleMobile" />
     <preference name="android-minSdkVersion" value="14" />
-    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="27" />
     <preference name="android-installLocation" value="auto" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
@@ -150,6 +150,10 @@
     <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="true" />
     </gap:config-file>
+    
+     <gap:plugin name="cordova-android-support-gradle-release" spec="https://github.com/dpa99c/cordova-android-support-gradle-release">
+        <variable name="ANDROID_SUPPORT_VERSION" value="27.+" />
+    </gap:plugin> 
 
     <!-- See MOBILE-892 -->
     <preference name="permissions" value="none"/>
