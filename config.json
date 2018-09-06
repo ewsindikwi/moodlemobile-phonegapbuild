@@ -15,6 +15,6 @@
     "siteurl": "https://elms.out.ac.tz/lgti/",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
-    "forcedefaultlanguage": "false",
+    "forcedefaultlanguage": "true",
     "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
 }
