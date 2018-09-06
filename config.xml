@@ -2,16 +2,16 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.out.outlems"
-        versionCode = "20230"
+        id        = "com.lgti.muki"
+        versionCode = "20240"
         version   = "3.4.2">
-    <name>OUTLeMS</name>
+    <name>MUKI</name>
 
     <description>
-        OUTLeMS official app
+        Programu rasmi ya MUKI
     </description>
 
-    <author href="http://ibold.africa" email="francis.mashalla@out.ac.tz">
+    <author href="http://ibold.africa" email="fragma093@gmail.com">
         EDMS Team
     </author>
 
